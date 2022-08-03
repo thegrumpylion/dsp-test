@@ -14,6 +14,18 @@
         ]
       },
       "parsers": [
+          {
+    "name": "to-dsp",
+    "options": {
+      "settings": {
+        "name": "My awesome DSP",
+        "buildStatusLabel": "test",
+        "packageVersion": "0.0.1",
+        "snippetTriggerPrefix": "ex-"
+      },
+      "createAssets": false
+    }
+  },
         {
           "name": "sort-by",
           "options": {
